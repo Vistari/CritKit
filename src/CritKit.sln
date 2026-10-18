@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CritKit.CommandLine", "CritKit.CommandLine\CritKit.CommandLine.csproj", "{A2445A4D-97FB-4B68-A890-C17279E1DF5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CritKit.Data", "CritKit.Data\CritKit.Data.csproj", "{0059D7C9-9465-4BAA-B06B-EE73F6DF8B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CritKit.Common", "CritKit.Common\CritKit.Common.csproj", "{6E0D1886-4063-4712-A813-7C6598CF667D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2445A4D-97FB-4B68-A890-C17279E1DF5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2445A4D-97FB-4B68-A890-C17279E1DF5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2445A4D-97FB-4B68-A890-C17279E1DF5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2445A4D-97FB-4B68-A890-C17279E1DF5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0059D7C9-9465-4BAA-B06B-EE73F6DF8B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0059D7C9-9465-4BAA-B06B-EE73F6DF8B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0059D7C9-9465-4BAA-B06B-EE73F6DF8B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0059D7C9-9465-4BAA-B06B-EE73F6DF8B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E0D1886-4063-4712-A813-7C6598CF667D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E0D1886-4063-4712-A813-7C6598CF667D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E0D1886-4063-4712-A813-7C6598CF667D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E0D1886-4063-4712-A813-7C6598CF667D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
