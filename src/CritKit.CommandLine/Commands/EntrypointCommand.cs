@@ -11,8 +11,6 @@ public static class EntrypointCommand
         
         Command.SetAction(result =>
         {
-            var tagMargin = (Console.WindowWidth - TagLine.Length) / 2;
-            
             WriteCenterLines(SplashArtTextLines);
             WriteCenterLines([TagLine]);
 
@@ -35,12 +33,10 @@ public static class EntrypointCommand
         @"<+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+>"
         ];
 
-    private static string TagLine => "-- For when sudo isn't enough magic. --";
-    
-    static void WriteCenterLines(params string[] lines)
-    {
-        var verticalStart = (Console.WindowHeight - lines.Length) / 2;
+    private const string TagLine = "-- For when sudo isn't enough magic. --";
 
+    private static void WriteCenterLines(params string[] lines)
+    {
         foreach (var line in lines)
         {
             var horizontalStart = (Console.WindowWidth - line.Length) / 2;
